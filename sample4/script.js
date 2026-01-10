@@ -10,7 +10,6 @@ function calculate() {
     let n2 = parseFloat(num2.value);
     let op = operator.value;
     let result;
-    let bgColor = document.body.style.backgroundColor = "lightyellow";
     switch (op) {
         case '+':
             result = n1 + n2;
